@@ -268,6 +268,46 @@ export const projects = [
     accent: '#ec4899',
     icon: 'Hexagon',
   },
+  {
+    id: 'serename',
+    title: 'Serename',
+    subtitle: 'Wellness & Well-being Website',
+    period: '2024 – 2025',
+    client: 'Gaby Tilkin Serename',
+    role: 'Frontend Developer',
+    url: 'https://www.serename.be',
+    description:
+      'Full website for Gaby Tilkin Serename, a Belgian wellness practitioner specialising in body and emotional harmony. A rich single-page experience featuring services, packages, gallery, testimonials, and a contact booking section — built entirely in React.',
+    highlights: [
+      'Rich multi-section layout: services, gallery, packages, testimonials',
+      'Video banner with autoplay and parallax scroll effects',
+      'Isotope-powered filterable gallery',
+      'Swiper carousels, lightbox, and animated counters',
+    ],
+    technologies: ['React', 'Vite', 'JavaScript', 'CSS3', 'Swiper', 'Isotope'],
+    accent: '#E7A391',
+    icon: 'Leaf',
+  },
+  {
+    id: 'koowah',
+    title: 'Koowah',
+    subtitle: 'Word & Image Association Game',
+    period: '2025',
+    client: 'TwistGames',
+    role: 'Fullstack Developer (solo)',
+    url: 'https://www.koowah.online',
+    description:
+      'A web-based party game where players secretly associate words with images and eliminate wrong guesses. Built end-to-end as a solo fullstack project — from a Golang REST API backend to a React/TypeScript frontend — for Belgian board game publisher TwistGames.',
+    highlights: [
+      'Solo fullstack build: Golang REST API + React/TypeScript frontend',
+      'Custom game engine handling sessions, word cards, and elimination logic',
+      'Drag-and-drop interactions with @dnd-kit',
+      'Deployed on Vercel with PDF rulebook viewer',
+    ],
+    technologies: ['Golang', 'REST API', 'React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    accent: '#CC782A',
+    icon: 'Gamepad2',
+  },
 ];
 
 export const skills = [
