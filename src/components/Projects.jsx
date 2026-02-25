@@ -5,6 +5,9 @@ import {
   ShoppingCart,
   Download,
   Hexagon,
+  Bike,
+  Gamepad2,
+  Leaf,
   ExternalLink,
   Calendar,
   User,
@@ -19,6 +22,9 @@ const iconMap = {
   ShoppingCart,
   Download,
   Hexagon,
+  Bike,
+  Gamepad2,
+  Leaf,
 };
 
 function ProjectCard({ project, index }) {
@@ -189,6 +195,31 @@ function ProjectCard({ project, index }) {
             </span>
           ))}
         </div>
+
+        {/* Visit link */}
+        {project.url && (
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
+              fontSize: '0.82rem',
+              fontWeight: 600,
+              color: project.accent,
+              textDecoration: 'none',
+              marginTop: '4px',
+              transition: 'opacity 0.2s',
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.75')}
+            onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
+          >
+            <ExternalLink size={13} />
+            Visit project
+          </a>
+        )}
       </div>
     </motion.div>
   );

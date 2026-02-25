@@ -176,6 +176,66 @@ export const experience = [
 
 export const projects = [
   {
+    id: 'skipr',
+    title: 'Skipr',
+    subtitle: 'Corporate Mobility Platform',
+    period: 'May 2019 – Present',
+    client: 'Skipr',
+    role: 'Freelance Software Developer',
+    url: 'https://www.skipr.co',
+    description:
+      'Skipr is a Belgian mobility platform revolutionising corporate commuting by combining all transport options into a single app. As a long-term freelance developer, SevenMiles contributes to both the Golang microservices backend and the cross-platform Flutter mobile application used by thousands of corporate users across Belgium.',
+    highlights: [
+      'Golang microservices backend architecture at scale',
+      'Flutter mobile application for iOS & Android',
+      'API design and third-party transport integrations',
+      'AI-assisted development using Claude, OpenAI and Gemini',
+    ],
+    technologies: ['Golang', 'Flutter', 'Dart', 'PostgreSQL', 'Docker', 'Kubernetes'],
+    accent: '#3dada0',
+    icon: 'Bike',
+  },
+  {
+    id: 'koowah',
+    title: 'Koowah',
+    subtitle: 'Word & Image Association Game',
+    period: '2025',
+    client: 'TwistGames',
+    role: 'Fullstack Developer (solo)',
+    url: 'https://www.koowah.online',
+    description:
+      'A web-based party game where players secretly associate words with images and eliminate wrong guesses. Built end-to-end as a solo fullstack project — from a Golang REST API backend to a React/TypeScript frontend — for Belgian board game publisher TwistGames.',
+    highlights: [
+      'Solo fullstack build: Golang REST API + React/TypeScript frontend',
+      'Custom game engine handling sessions, word cards, and elimination logic',
+      'Drag-and-drop interactions with @dnd-kit',
+      'Deployed on Vercel with PDF rulebook viewer',
+    ],
+    technologies: ['Golang', 'REST API', 'React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    accent: '#CC782A',
+    icon: 'Gamepad2',
+  },
+  {
+    id: 'serename',
+    title: 'Serename',
+    subtitle: 'Wellness & Well-being Website',
+    period: '2024 – 2025',
+    client: 'Gaby Tilkin Serename',
+    role: 'Frontend Developer',
+    url: 'https://www.serename.be',
+    description:
+      'Full website for Gaby Tilkin Serename, a Belgian wellness practitioner specialising in body and emotional harmony. A rich single-page experience featuring services, packages, gallery, testimonials, and a contact booking section — built entirely in React.',
+    highlights: [
+      'Rich multi-section layout: services, gallery, packages, testimonials',
+      'Video banner with autoplay and parallax scroll effects',
+      'Isotope-powered filterable gallery',
+      'Swiper carousels, lightbox, and animated counters',
+    ],
+    technologies: ['React', 'Vite', 'JavaScript', 'CSS3', 'Swiper', 'Isotope'],
+    accent: '#E7A391',
+    icon: 'Leaf',
+  },
+  {
     id: 'helloplay',
     title: 'Hello Play!',
     subtitle: 'Music Discovery Platform',
@@ -267,46 +327,6 @@ export const projects = [
     technologies: ['PHP', 'Symfony', 'MySQL', 'JavaScript', 'CSS3'],
     accent: '#ec4899',
     icon: 'Hexagon',
-  },
-  {
-    id: 'serename',
-    title: 'Serename',
-    subtitle: 'Wellness & Well-being Website',
-    period: '2024 – 2025',
-    client: 'Gaby Tilkin Serename',
-    role: 'Frontend Developer',
-    url: 'https://www.serename.be',
-    description:
-      'Full website for Gaby Tilkin Serename, a Belgian wellness practitioner specialising in body and emotional harmony. A rich single-page experience featuring services, packages, gallery, testimonials, and a contact booking section — built entirely in React.',
-    highlights: [
-      'Rich multi-section layout: services, gallery, packages, testimonials',
-      'Video banner with autoplay and parallax scroll effects',
-      'Isotope-powered filterable gallery',
-      'Swiper carousels, lightbox, and animated counters',
-    ],
-    technologies: ['React', 'Vite', 'JavaScript', 'CSS3', 'Swiper', 'Isotope'],
-    accent: '#E7A391',
-    icon: 'Leaf',
-  },
-  {
-    id: 'koowah',
-    title: 'Koowah',
-    subtitle: 'Word & Image Association Game',
-    period: '2025',
-    client: 'TwistGames',
-    role: 'Fullstack Developer (solo)',
-    url: 'https://www.koowah.online',
-    description:
-      'A web-based party game where players secretly associate words with images and eliminate wrong guesses. Built end-to-end as a solo fullstack project — from a Golang REST API backend to a React/TypeScript frontend — for Belgian board game publisher TwistGames.',
-    highlights: [
-      'Solo fullstack build: Golang REST API + React/TypeScript frontend',
-      'Custom game engine handling sessions, word cards, and elimination logic',
-      'Drag-and-drop interactions with @dnd-kit',
-      'Deployed on Vercel with PDF rulebook viewer',
-    ],
-    technologies: ['Golang', 'REST API', 'React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    accent: '#CC782A',
-    icon: 'Gamepad2',
   },
 ];
 
