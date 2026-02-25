@@ -141,6 +141,7 @@ function ProjectCard({ project, index }) {
           </div>
         </div>
 
+
         {/* Highlights */}
         <ul style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
           {project.highlights.slice(0, 3).map((h, i) => (
